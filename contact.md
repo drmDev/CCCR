@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Contact Us <i class="fas fa-envelope text-success"></i>
 
-Have questions about our events or community? Here's how you can reach us.
+Have questions about our events or community? You can also visit the **[official site](https://rochesterchessclub.org/)** for more information. Here's how you can reach us:
 
 ---
 
