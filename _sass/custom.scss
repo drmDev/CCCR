@@ -1,68 +1,96 @@
+// -- Global styles --
 body {
-  background-color: #121212;  // Dark background
-  color: #f8f9fa;             // Slightly off-white for better contrast
+  background-color: #121212;        // Dark background for dark mode
+  color: #f8f9fa;                   // Slightly off-white text color for contrast
+  font-size: 1rem;                  // Base font size (16px)
+  line-height: 1.6;                 // Improved readability
 }
 
+// -- Typography (Headers) --
+h1, h2, h3 {
+  font-weight: bold;                // Bold headings
+}
+
+// -- Navbar styles --
 .navbar {
-  background-color: #1a1a1a;
+  background-color: #1a1a1a;        // Consistent dark background for navbar
+  border-bottom: 2px solid #28a745; // Green accent border
 }
 
+.nav-link {
+  color: #f8f9fa;                   // White navbar links
+}
+
+.nav-link:hover {
+  color: #28a745;                   // Green on hover
+}
+
+// -- Button styles --
 .btn-primary {
-  background-color: #28a745;   // Green for a chess-themed highlight
+  background-color: #28a745;        // Green for primary buttons
   border-color: #28a745;
 }
 
 .btn-primary:hover {
-  background-color: #218838;
+  background-color: #218838;        // Darker green on hover
   border-color: #218838;
 }
 
+// -- Footer styles --
 footer {
-  background-color: #1a1a1a;   // Same as navbar for consistency
-  color: #f8f9fa;              // Same off-white as body text for better contrast
-  padding: 1rem;
-  font-size: 0.95rem;
-  border-top: 2px solid #28a745;  // Optional green accent line
+  background-color: #1a1a1a;        // Dark background to match navbar
+  color: #f8f9fa;                   // White text for readability
+  padding: 1rem;                    // Padding for spacing
+  font-size: 0.95rem;               // Slightly smaller font size
+  border-top: 2px solid #28a745;    // Optional green accent line
 }
 
 footer p {
-  margin: 0.5rem 0;             // Add some spacing between paragraphs
+  margin: 0.5rem 0;                 // Add spacing between paragraphs
 }
 
 footer a {
-  color: #50fa7b;               // A brighter green for better visibility
+  color: #50fa7b;                   // Brighter green link color
   text-decoration: none;
   font-weight: 500;
 }
 
 footer a:hover {
-  color: #38c172;               // Slightly darker green on hover
+  color: #38c172;                   // Slightly darker green on hover
   text-decoration: underline;
 }
 
-.navbar {
-  border-bottom: 2px solid #28a745;  // Optional green accent
-}
-
-.nav-link {
-  color: #f8f9fa;                  // White text for links
-}
-
-.nav-link:hover {
-  color: #28a745;                  // Green on hover
-}
-
+// -- List styles (for events and links pages) --
 ul, ol {
-  text-align: left;             // Align lists to the left
-  margin: 1rem auto;            // Center the list block itself
-  padding-left: 1.5rem;         // Add padding so the bullets aren't too close to the edge
+  text-align: left;                 // Align lists to the left
+  margin: 1rem auto;                // Center the list block itself
+  padding-left: 1.5rem;             // Add padding for bullet spacing
 }
 
 li {
-  line-height: 1.6;             // Increase spacing between items
+  line-height: 1.6;                 // Increased spacing between list items
   font-size: 1rem;
 }
 
 ul i {
-  margin-right: 0.5rem;         // Add spacing between FontAwesome icons and text
+  margin-right: 0.5rem;             // Add spacing between icons and list text
+}
+
+// -- Mobile-specific styles --
+@media (max-width: 768px) {
+  body {
+    font-size: 1.1rem;              // Slightly larger base font on mobile
+  }
+
+  h1 {
+    font-size: 1.8rem;              // Adjusted heading sizes for readability on small screens
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
 }
