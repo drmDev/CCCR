@@ -75,22 +75,3 @@ li {
 ul i {
   margin-right: 0.5rem;             // Add spacing between icons and list text
 }
-
-// -- Mobile-specific styles --
-@media (max-width: 768px) {
-  body {
-    font-size: 1.1rem;              // Slightly larger base font on mobile
-  }
-
-  h1 {
-    font-size: 1.8rem;              // Adjusted heading sizes for readability on small screens
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  h3 {
-    font-size: 1.25rem;
-  }
-}
