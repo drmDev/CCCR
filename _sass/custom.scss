@@ -1,6 +1,6 @@
 body {
-  background-color: #121212;
-  color: #ffffff;
+  background-color: #121212;  // Dark background
+  color: #f8f9fa;             // Slightly off-white for better contrast
 }
 
 .navbar {
@@ -8,11 +8,61 @@ body {
 }
 
 .btn-primary {
-  background-color: #28a745;
+  background-color: #28a745;   // Green for a chess-themed highlight
   border-color: #28a745;
 }
 
 .btn-primary:hover {
   background-color: #218838;
   border-color: #218838;
+}
+
+footer {
+  background-color: #1a1a1a;   // Same as navbar for consistency
+  color: #f8f9fa;              // Same off-white as body text for better contrast
+  padding: 1rem;
+  font-size: 0.95rem;
+  border-top: 2px solid #28a745;  // Optional green accent line
+}
+
+footer p {
+  margin: 0.5rem 0;             // Add some spacing between paragraphs
+}
+
+footer a {
+  color: #50fa7b;               // A brighter green for better visibility
+  text-decoration: none;
+  font-weight: 500;
+}
+
+footer a:hover {
+  color: #38c172;               // Slightly darker green on hover
+  text-decoration: underline;
+}
+
+.navbar {
+  border-bottom: 2px solid #28a745;  // Optional green accent
+}
+
+.nav-link {
+  color: #f8f9fa;                  // White text for links
+}
+
+.nav-link:hover {
+  color: #28a745;                  // Green on hover
+}
+
+ul, ol {
+  text-align: left;             // Align lists to the left
+  margin: 1rem auto;            // Center the list block itself
+  padding-left: 1.5rem;         // Add padding so the bullets aren't too close to the edge
+}
+
+li {
+  line-height: 1.6;             // Increase spacing between items
+  font-size: 1rem;
+}
+
+ul i {
+  margin-right: 0.5rem;         // Add spacing between FontAwesome icons and text
 }
