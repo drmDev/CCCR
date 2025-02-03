@@ -1,3 +1,6 @@
+// -- Font Family --
+$font-primary: 'Lora', 'Georgia', serif;
+
 // -- Color Palette --
 $dark-brown: #5D4037;               // Dark brown for backgrounds
 $light-brown: #D7CCC8;              // Neutral light brown (for text and highlights)
@@ -11,6 +14,7 @@ body {
   background-color: $background-dark;
   color: $off-white;
   font-size: 1rem;
+  font-family: $font-primary;
   line-height: 1.6;
 }
 
@@ -30,6 +34,8 @@ h4 {
 // -- Navbar styles --
 .navbar {
   background-color: $dark-brown;     // Dark brown for a warmer feel
+  font-family: $font-primary;
+  font-size: 1.25rem;
   border-bottom: 2px solid $green-highlight;
 }
 
@@ -62,6 +68,7 @@ footer {
   color: $light-brown;
   padding: 1rem;
   font-size: 0.95rem;
+  font-family: $font-primary;
   border-top: 2px solid $gold;
 }
 
