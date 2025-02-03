@@ -24,3 +24,10 @@ Here's a breakdown of our regular schedule:
 Stay up to date with all our events by checking the Google Calendar below:
 
 <iframe src="https://calendar.google.com/calendar/u/0/embed?src=uttklpt8nvildlrkqqd98kgno0@group.calendar.google.com&ctz=America/New_York" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+
+---
+
+### Preparing for Rated OTB (Over The Board) Play
+
+Learn the key etiquette and rules for in-person chess tournaments to ensure a smooth experience: [OTB Chess Guide]({{ '/otb-guide/' | relative_url }}).
+
