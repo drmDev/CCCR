@@ -39,6 +39,11 @@ h4 {
   border-bottom: 2px solid $green-highlight;
 }
 
+.navbar-toggler-icon {
+  filter: brightness(1.0);      // Adjust color contrast
+  background-color: $gold;
+}
+
 .navbar-brand {
   color: #D4AF37 !important;    // Gold branding text
 }
