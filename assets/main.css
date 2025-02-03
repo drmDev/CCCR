@@ -6,6 +6,8 @@ h4 { font-weight: bold; margin-top: 1.5rem; color: #D4AF37; }
 
 .navbar { background-color: #5D4037; font-family: "Lora", "Georgia", serif; font-size: 1.25rem; border-bottom: 2px solid #28a745; }
 
+.navbar-toggler-icon { filter: brightness(1); background-color: #D4AF37; }
+
 .navbar-brand { color: #D4AF37 !important; }
 
 .nav-link { color: #f8f9fa; }
