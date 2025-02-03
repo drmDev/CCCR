@@ -1,10 +1,10 @@
-body { background-color: #121212; color: #f8f9fa; font-size: 1rem; line-height: 1.6; }
+body { background-color: #121212; color: #f8f9fa; font-size: 1rem; font-family: "Lora", "Georgia", serif; line-height: 1.6; }
 
 h1, h2, h3 { font-weight: bold; color: #28a745; margin-top: 2rem; }
 
 h4 { font-weight: bold; margin-top: 1.5rem; color: #D4AF37; }
 
-.navbar { background-color: #5D4037; border-bottom: 2px solid #28a745; }
+.navbar { background-color: #5D4037; font-family: "Lora", "Georgia", serif; font-size: 1.25rem; border-bottom: 2px solid #28a745; }
 
 .navbar-brand { color: #D4AF37 !important; }
 
@@ -16,7 +16,7 @@ h4 { font-weight: bold; margin-top: 1.5rem; color: #D4AF37; }
 
 .btn-primary:hover { background-color: #1e7e34; border-color: #1e7e34; }
 
-footer { background-color: #5D4037; color: #D7CCC8; padding: 1rem; font-size: 0.95rem; border-top: 2px solid #D4AF37; }
+footer { background-color: #5D4037; color: #D7CCC8; padding: 1rem; font-size: 0.95rem; font-family: "Lora", "Georgia", serif; border-top: 2px solid #D4AF37; }
 
 footer p { margin: 0.5rem 0; }
 
