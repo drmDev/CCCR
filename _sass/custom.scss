@@ -9,6 +9,14 @@ body {
 // -- Typography (Headers) --
 h1, h2, h3 {
   font-weight: bold;                // Bold headings
+  color: #28a745;
+  margin-top: 2rem;
+}
+
+h4 {
+  font-weight: bold;
+  margin-top: 1.5rem;
+  color: #28a745;
 }
 
 // -- Navbar styles --
@@ -74,4 +82,16 @@ li {
 
 ul i {
   margin-right: 0.5rem;             // Add spacing between icons and list text
+}
+
+// -- Misc Styles --
+.row img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+iframe {
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
