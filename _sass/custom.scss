@@ -1,90 +1,102 @@
+// -- Color Palette --
+$dark-brown: #5D4037;               // Dark brown for backgrounds
+$light-brown: #D7CCC8;              // Neutral light brown (for text and highlights)
+$gold: #D4AF37;                     // Gold accent
+$green-highlight: #28a745;          // Existing green highlight color
+$off-white: #f8f9fa;                // Slightly off-white for readability
+$background-dark: #121212;          // Main dark background
+
 // -- Global styles --
 body {
-  background-color: #121212;        // Dark background for dark mode
-  color: #f8f9fa;                   // Slightly off-white text color for contrast
-  font-size: 1rem;                  // Base font size (16px)
-  line-height: 1.6;                 // Improved readability
+  background-color: $background-dark;
+  color: $off-white;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
 // -- Typography (Headers) --
 h1, h2, h3 {
-  font-weight: bold;                // Bold headings
-  color: #28a745;
+  font-weight: bold;
+  color: $green-highlight;
   margin-top: 2rem;
 }
 
 h4 {
   font-weight: bold;
   margin-top: 1.5rem;
-  color: #28a745;
+  color: $gold;                     // Add gold for secondary headers to vary color palette
 }
 
 // -- Navbar styles --
 .navbar {
-  background-color: #1a1a1a;        // Consistent dark background for navbar
-  border-bottom: 2px solid #28a745; // Green accent border
+  background-color: $dark-brown;     // Dark brown for a warmer feel
+  border-bottom: 2px solid $green-highlight;
+}
+
+.navbar-brand {
+  color: #D4AF37 !important;    // Gold branding text
 }
 
 .nav-link {
-  color: #f8f9fa;                   // White navbar links
+  color: $off-white;
 }
 
 .nav-link:hover {
-  color: #28a745;                   // Green on hover
+  color: $gold;                      // Use gold for hover effect on nav links
 }
 
 // -- Button styles --
 .btn-primary {
-  background-color: #28a745;        // Green for primary buttons
-  border-color: #28a745;
+  background-color: $green-highlight;
+  border-color: $green-highlight;
 }
 
 .btn-primary:hover {
-  background-color: #218838;        // Darker green on hover
-  border-color: #218838;
+  background-color: darken($green-highlight, 10%);
+  border-color: darken($green-highlight, 10%);
 }
 
 // -- Footer styles --
 footer {
-  background-color: #1a1a1a;        // Dark background to match navbar
-  color: #f8f9fa;                   // White text for readability
-  padding: 1rem;                    // Padding for spacing
-  font-size: 0.95rem;               // Slightly smaller font size
-  border-top: 2px solid #28a745;    // Optional green accent line
+  background-color: $dark-brown;
+  color: $light-brown;
+  padding: 1rem;
+  font-size: 0.95rem;
+  border-top: 2px solid $gold;
 }
 
 footer p {
-  margin: 0.5rem 0;                 // Add spacing between paragraphs
+  margin: 0.5rem 0;
 }
 
 footer a {
-  color: #50fa7b;                   // Brighter green link color
+  color: $gold;
   text-decoration: none;
   font-weight: 500;
 }
 
 footer a:hover {
-  color: #38c172;                   // Slightly darker green on hover
+  color: lighten($gold, 10%);
   text-decoration: underline;
 }
 
-// -- List styles (for events and links pages) --
+// -- List styles --
 ul, ol {
-  text-align: left;                 // Align lists to the left
-  margin: 1rem auto;                // Center the list block itself
-  padding-left: 1.5rem;             // Add padding for bullet spacing
+  text-align: left;
+  margin: 1rem auto;
+  padding-left: 1.5rem;
 }
 
 li {
-  line-height: 1.6;                 // Increased spacing between list items
+  line-height: 1.6;
   font-size: 1rem;
 }
 
 ul i {
-  margin-right: 0.5rem;             // Add spacing between icons and list text
+  margin-right: 0.5rem;
 }
 
-// -- Misc Styles --
+// -- Misc styles --
 .row img {
   max-width: 100%;
   height: auto;
@@ -92,6 +104,13 @@ ul i {
 }
 
 iframe {
-  border: 1px solid #ccc;
+  border: 1px solid $light-brown;
   border-radius: 8px;
+}
+
+.section-highlight {
+  background: linear-gradient(135deg, $dark-brown 50%, $gold 50%);
+  color: $off-white;
+  padding: 2rem;
+  border-radius: 12px;
 }
