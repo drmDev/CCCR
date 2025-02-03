@@ -58,10 +58,3 @@ Our club welcomes players of all levels. Whether you're a beginner, expert, or s
 ### Our Rich History <i class="fas fa-history text-muted"></i>
 
 The CCCR has been a vital part of Rochester's chess community for decades. We are proud to have founded the annual **Marchand Chess Tournament**, one of the largest in the region. We also participate in tournaments such as the Can-Am in Buffalo and the New York State Championship in Albany.
-
----
-
-### Contact Us <i class="fas fa-phone text-primary"></i>
-
-For more information, please visit our [Contact Page](/contact/) or call us at **(585) 442-2430**.
-
