@@ -32,6 +32,10 @@ li { line-height: 1.6; font-size: 1rem; }
 
 ul i { margin-right: 0.5rem; }
 
+.card a { color: #28a745; text-decoration: none; font-weight: 500; transition: color 0.3s ease; }
+
+.card a:hover { color: #34ce57; text-decoration: underline; }
+
 .row img { max-width: 100%; height: auto; margin: 1rem 0; }
 
 iframe { border: 1px solid #D7CCC8; border-radius: 8px; }

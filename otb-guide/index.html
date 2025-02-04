@@ -16,7 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Font Awesome Icons -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 
   <!-- Custom Styles -->
   <link rel="stylesheet" href="/CCCR/assets/main.css">
@@ -67,79 +67,117 @@
 
 <hr />
 
-<h2 id="starting-the-game-"><strong>Starting the Game</strong> <i class="fas fa-handshake text-success"></i></h2>
+<div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
 
-<ul>
-  <li>Shake hands with your opponent and wish them good luck before starting.</li>
-  <li>The player controlling the black pieces starts the timer after white makes their first move.</li>
-</ul>
+  <!-- Starting the Game Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-success">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-handshake text-success"></i> Starting the Game</h3>
+        <p>
+          Shake hands with your opponent and wish them good luck before starting.  
+          The player controlling the black pieces starts the timer after white makes their first move.
+        </p>
+      </div>
+    </div>
+  </div>
 
-<hr />
+  <!-- Touch Move Rule Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-danger">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-hand-pointer text-danger"></i> Touch Move Rule</h3>
+        <p>
+          If you touch a piece on the board (yours or your opponent's), you must move it if possible.  
+          To adjust a piece without penalty, announce "adjust" (or "j’adoube") first.
+        </p>
+      </div>
+    </div>
+  </div>
 
-<h2 id="touch-move-rule-"><strong>Touch Move Rule</strong> <i class="fas fa-hand-pointer text-danger"></i></h2>
+  <!-- Making a Move and Using the Clock Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-info">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-hourglass text-info"></i> Making a Move and Using the Clock</h3>
+        <p>
+          On your turn:
+        </p>
+        <ol>
+          <li>Move one of your pieces (and if castling, touch the King before touching the Rook).</li>
+          <li>Use the <strong>same hand</strong> to press the clock after completing your move.</li>
+          <li>Write your move in <strong>chess notation</strong> before your opponent moves.</li>
+        </ol>
+      </div>
+    </div>
+  </div>
 
-<ul>
-  <li>If you touch a piece on the board (yours or your opponent’s), you must move it if possible.</li>
-  <li>If you touch a piece with the intention of adjusting its position, announce “adjust” (or “j’adoube”) first.</li>
-</ul>
+  <!-- Understanding Chess Notation Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-warning">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-pencil-alt text-warning"></i> Understanding Chess Notation</h3>
+        <p>
+          Chess players are required to record moves during rated games.  
+          Learn how to write moves using <strong>algebraic notation</strong> (e.g., <code>e4</code>, <code>Nf3</code>, <code>O-O</code> for castling).
+        </p>
+        <p>
+					<a href="https://www.chess.com/terms/chess-notation" class="text-warning" target="_blank" rel="noopener noreferrer">
+						Learn Chess Notation
+					</a>
+        </p>
+      </div>
+    </div>
+  </div>
 
-<hr />
+	<!-- Draw Offers and Claiming Draws Card -->
+	<div class="col">
+		<div class="card h-100 bg-dark text-light border-secondary">
+			<div class="card-body">
+				<h3 class="card-title">
+					<i class="fa-solid fa-shield-halved text-secondary"></i> Draw Offers and Claiming Draws
+				</h3>
+				<p>
+					You can offer a draw on your turn after making a move but <strong>before pressing the clock</strong>.
+					You may also claim a draw if:
+				</p>
+				<ul>
+					<li>The same position appears on the board three times.</li>
+					<li>Fifty consecutive moves are made without a capture or pawn move.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-<h2 id="making-a-move-and-using-the-clock-"><strong>Making a Move and Using the Clock</strong> <i class="fas fa-hourglass text-info"></i></h2>
+  <!-- Ending the Game Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-success">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-flag-checkered text-success"></i> Ending the Game</h3>
+        <p>
+          Shake hands with your opponent after the game, regardless of the result.  
+          Report the game result to the tournament director (win, loss, or draw).
+        </p>
+      </div>
+    </div>
+  </div>
 
-<ul>
-  <li>On your turn:
-    <ol>
-      <li>Move one of your pieces (and if castling, touch the King before touching the Rook).</li>
-      <li>Use the <strong>same hand</strong> to press the clock after completing your move.</li>
-      <li>Write your move in <strong>chess notation</strong> before your opponent moves.</li>
-    </ol>
-  </li>
-</ul>
+  <!-- Other OTB Tips Card -->
+  <div class="col">
+    <div class="card h-100 bg-dark text-light border-primary">
+      <div class="card-body">
+        <h3 class="card-title"><i class="fas fa-chess text-primary"></i> Other OTB Tips</h3>
+        <ul>
+          <li>Arrive on time to avoid losing by forfeit.</li>
+          <li>Bring your own <strong>chess clock</strong> and <strong>scorebook</strong> if possible.</li>
+          <li>Stay quiet and respectful while games are in progress.</li>
+          <li>Avoid touching the chess pieces or clocks of other players during their games.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-<hr />
-
-<h2 id="understanding-chess-notation-"><strong>Understanding Chess Notation</strong> <i class="fas fa-pencil-alt text-warning"></i></h2>
-
-<p>Chess players are required to record moves during rated games. Learn how to write moves using <strong>algebraic notation</strong> (e.g., <code class="language-plaintext highlighter-rouge">e4</code>, <code class="language-plaintext highlighter-rouge">Nf3</code>, <code class="language-plaintext highlighter-rouge">O-O</code> for castling).</p>
-
-<ul>
-  <li><a href="https://www.chess.com/terms/chess-notation">Learn Chess Notation</a></li>
-</ul>
-
-<hr />
-
-<h2 id="draw-offers-and-claiming-draws-"><strong>Draw Offers and Claiming Draws</strong> <i class="fas fa-handshake-alt text-muted"></i></h2>
-
-<ul>
-  <li>You can offer a draw on your turn, after making a move but <strong>before pressing the clock</strong>.</li>
-  <li>You may also claim a draw if:
-    <ul>
-      <li>The same position appears on the board three times.</li>
-      <li>Fifty consecutive moves are made without a capture or pawn move.</li>
-    </ul>
-  </li>
-</ul>
-
-<hr />
-
-<h2 id="ending-the-game-"><strong>Ending the Game</strong> <i class="fas fa-flag-checkered text-success"></i></h2>
-
-<ul>
-  <li>Shake hands with your opponent after the game, regardless of the result.</li>
-  <li>Report the game result to the tournament director (win, loss, or draw).</li>
-</ul>
-
-<hr />
-
-<h2 id="other-otb-tips"><strong>Other OTB Tips</strong></h2>
-
-<ul>
-  <li>Arrive on time to avoid losing by forfeit.</li>
-  <li>Bring your own <strong>chess clock</strong> and <strong>scorebook</strong> if possible.</li>
-  <li>Stay quiet and respectful while games are in progress.</li>
-  <li>Avoid touching the chess pieces or clocks of other players during their games.</li>
-</ul>
+</div>
 
     </div>
   </div>
